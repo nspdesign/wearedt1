@@ -8,17 +8,6 @@
 
 <body>
 
-	<div id="preloader">
-		<div class="sk-spinner sk-spinner-wave">
-			<div class="sk-rect1"></div>
-			<div class="sk-rect2"></div>
-			<div class="sk-rect3"></div>
-			<div class="sk-rect4"></div>
-			<div class="sk-rect5"></div>
-		</div>
-	</div><!-- End Preload -->
-
-	<div class="layer"></div><!-- Mobile menu overlay mask -->
 	<?php include 'nav.php';?> 
 	<main>
 		<div id="booking_container">
@@ -69,241 +58,319 @@
 				</div><!-- End row -->
 			</div><!-- End container -->
 		</div><!-- End Booking container -->	
-<br><br>
-		<div class="container">
-    <div class="row">
-        <div class="col-md-3 col-sm-6">
-            <div class="serviceBox red">
-                <div class="service-icon">
-                    <i class="fa fa-globe"></i>
-                </div>
-                <h3 class="title">Web Design</h3>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.
-                </p>
-                <a class="read-more" href=""><i class="fa fa-arrow-right"></i></a>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="serviceBox blue">
-                <div class="service-icon">
-                    <i class="fa fa-rocket"></i>
-                </div>
-                <h3 class="title">Web Development</h3>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.
-                </p>
-                <a class="read-more" href=""><i class="fa fa-arrow-right"></i></a>
-            </div>
-		</div>
-		<div class="col-md-3 col-sm-6">
-            <div class="serviceBox red">
-                <div class="service-icon">
-                    <i class="fa fa-globe"></i>
-                </div>
-                <h3 class="title">Web Design</h3>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.
-                </p>
-                <a class="read-more" href=""><i class="fa fa-arrow-right"></i></a>
-            </div>
-		</div>
-		<div class="col-md-3 col-sm-6">
-            <div class="serviceBox blue">
-                <div class="service-icon">
-                    <i class="fa fa-rocket"></i>
-                </div>
-                <h3 class="title">Web Development</h3>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.
-                </p>
-                <a class="read-more" href=""><i class="fa fa-arrow-right"></i></a>
-            </div>
-		</div>
-    </div>
+
+<div id="marq" style="background-color:#ccd6e5; height:60px; text-align:center;">
+<marquee><h4 style="color:#425b83;">Enhance Effectiveness through Efficient Operations in ever Evolving markets</h4>
+</marquee>
 </div>
 
+<br><br>
+<h2 class="heading"> Services</h2>
+<div class="owl-slider">
+<div id="carousel1" class="owl-carousel">
+<div class="item">
+                                    <div class="serviceBox">
+                                        <div class="service-icon text-center">
+                                            <img src="img/soham.jpg" class="img-circle" style="height:200px;">
+                                        </div>
+                                        <h3 class="title">ERP for Manufacturing</h3>
+                                        <p class="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+								<div class="item">
+                                    <div class="serviceBox">
+                                        <div class="service-icon text-center">
+                                            <img src="img/ftm.jpg" class="img-circle" style="height:200px;">
+                                        </div>
+                                        <h3 class="title">Plant Maintenance</h3>
+                                        <p class="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+								<div class="item">
+                                    <div class="serviceBox">
+                                        <div class="service-icon text-center">
+                                            <img src="img/icm.jpg" class="img-circle" style="height:200px;">
+                                        </div>
+                                        <h3 class="title">ICM</h3>
+                                        <p class="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+								<div class="item">
+                                    <div class="serviceBox">
+                                        <div class="service-icon text-center">
+                                            <img src="img/connekt.jpg" class="img-circle" style="height:200px;">
+                                        </div>
+                                        <h3 class="title">Sales & Distribution</h3>
+                                        <p class="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+								<div class="item">
+                                    <div class="serviceBox">
+                                        <div class="service-icon text-center">
+                                            <img src="img/tna.jpg" class="img-circle" style="height:200px;">
+                                        </div>
+                                        <h3 class="title">Process Improvements</h3>
+                                        <p class="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+								<div class="item">
+                                    <div class="serviceBox">
+                                        <div class="service-icon text-center">
+                                            <img src="img/infralinkit.jpg" class="img-circle" style="height:200px;">
+                                        </div>
+                                        <h3 class="title">Cloud Based Platform</h3>
+                                        <p class="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+								<div class="item">
+                                    <div class="serviceBox">
+                                        <div class="service-icon text-center">
+                                            <img src="img/industry4.0_1.jpg" class="img-circle" style="height:200px;">
+                                        </div>
+                                        <h3 class="title">industry</h3>
+                                        <p class="description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+								
+								
+								
+</div>
+</div>
+<br><br>
+<div class="container pt-30">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                                <div class="counter">
+                            
+                                    <span class="counter-value">authentic services</span>
+                                    <p style="font-size: 16px; font-weight: 500;">100%</p>
+                                </div>
+                            </div>
+                    
+                            
+                            <div class="col-md-3 col-sm-6">
+                                <div class="counter">
+                            
+                                    <span class="counter-value"> Services deliverd</span>
+                                    <p style="font-size: 16px; font-weight: 500;">500+</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="counter">
+                            
+                                    <span class="counter-value">Trusted <br>Clients</span>
+                                    <p style="font-size: 16px; font-weight: 500;">1000+</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="counter">
+                            
+                                    <span class="counter-value">Honours & Awards</span>
+                                    <p style="font-size: 16px; font-weight: 500;">1000+</p>
+                                </div>
+                            </div>
+                            
+                    </div>
+				</div>
+				
+			<!--testimonial part-->
 
-		<div id="feat_home">
-			<div class="container margin_60_25">
+
+			<div class="demo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                            </p>
+                        </div>
+                        <h3 class="title">williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+ 
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                            </p>
+                        </div>
+                        <h3 class="title">Kristina</h3>
+                        <span class="post">Web Designer</span>
+                    </div>
+ 
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                            </p>
+                        </div>
+                        <h3 class="title">williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+				<!--testimonial part ends-->
+			
+<!--team part start-->
+		
+<section class="our-webcoderskull padding-lg">
+  <div class="container">
+    
+	<h2 class="heading"> Our Team</h2>
+    <br>
+    <ul class="row">
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
+            <h3><a href="http://www.webcoderskull.com/">Web coder skull</a></h3>
+            <p>Freelance Web Developer</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
+            <h3><a href="#">Kappua </a></h3>
+            <p>Freelance Web Developer</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
+            <h3><a href="http://www.webcoderskull.com/">Manish </a></h3>
+            <p>Freelance Web Developer</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+       </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
+            <h3><a href="http://www.webcoderskull.com/">Atul </a></h3>
+            <p>Freelance Web Developer</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+    </ul>
+  </div>
+</section>
+        <!-- End team part -->
+        <h2 class="heading"> Our Team</h2>
+        <br>
+        <div class="container"  style="background-color:#425b83;color:white;">
+  <div class="row">
+    <div class='col-md-10 offset-md-1 text-center mb-5 mt-5'>
+   
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-10 offset-md-1'>
+      <div class="carousel slide sq-crousal4" data-ride="carousel" id="sq-crousal4">
+        <!-- Bottom Carousel Indicators -->
+        
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner">
+        
+          <!-- Quote 1 -->
+          <div class="carousel-item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-md-10 offset-md-1 d-md-flex d-block text-center text-lg-left">
+					<img class="rounded-circle" src="https://www.tutorialrepublic.com/examples/images/clients/4.jpg" style="width: 100px;height:100px;">
+					<div class="feedback-text pl-3">
+						<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+						<small>Someone famous</small>
+					</div>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="carousel-item">
+				<blockquote>
+					<div class="row">
+						<div class="col-md-10 offset-md-1 d-md-flex d-block text-center text-lg-left">
+							<img class="rounded-circle" src="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" style="width: 100px;height:100px;">
+							<div class="feedback-text pl-3">
+								<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+								<small>Someone famous</small>
+							</div>
+						</div>
+					</div>
+				</blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="carousel-item">
+            <blockquote>
 				<div class="row">
-					<div class="col-md-6">
-                        <div class="box_feat">
-                            <span><img src="img/svg_icons/shield.svg" alt=""></span>
-                            <h3>Full Protection</h3>
-                            <p>Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri fabulas expetenda ei pro. Sed vero assentior ad, est vide liber viris ne. Mea saperet evertitur intellegebat ei, an labore cetero eos.</p>
-                        </div>
+					<div class="col-md-10 offset-md-1 d-md-flex d-block text-center text-lg-left">
+						<img class="rounded-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" style="width: 100px;height:100px;">
+						<div class="feedback-text pl-3">
+							<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+							<small>Someone famous</small>
+						</div>
 					</div>
-					<div class="col-md-6">
-						<div class="box_feat">
-                            <span><img src="img/svg_icons/mobile.svg" alt=""></span>
-                            <h3>Management via App</h3>
-                            <p>Mea saperet evertitur intellegebat ei, an labore cetero eos. Quo no facilisis contentiones, enim graeci vim ea, justo graecis ne qui. His tation theophrastus intellegebat ut, hinc fierent nam ea.</p>
-                        </div>
-					</div>
-				</div><!-- End row -->
-				<div class="row">
-					<div class="col-md-6">
-                        <div class="box_feat">
-                            <span><img src="img/svg_icons/video-camera.svg" alt=""></span>
-                            <h3>HD Video Camera</h3>
-                            <p>Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri fabulas expetenda ei pro. Sed vero assentior ad, est vide liber viris ne. Mea saperet evertitur intellegebat ei, an labore cetero eos.</p>
-                        </div>
-					</div>
-					<div class="col-md-6">
-						<div class="box_feat">
-                            <span><img src="img/svg_icons/microphone.svg" alt=""></span>
-                            <h3>Microphone</h3>
-                            <p>Mea saperet evertitur intellegebat ei, an labore cetero eos. Quo no facilisis contentiones, enim graeci vim ea, justo graecis ne qui. His tation theophrastus intellegebat ut, hinc fierent nam ea.</p>
-                        </div>
-					</div>
-				</div><!-- End row -->
-				<div class="row">
-					<div class="col-md-6">
-                        <div class="box_feat">
-                            <span><img src="img/svg_icons/settings.svg" alt=""></span>
-                            <h3>Tecnical Support</h3>
-                            <p>Lorem ipsum dolor sit amet, no movet simul laoreet pri, aperiri fabulas expetenda ei pro. Sed vero assentior ad, est vide liber viris ne. Mea saperet evertitur intellegebat ei, an labore cetero eos.</p>
-                        </div>
-					</div>
-					<div class="col-md-6">
-						<div class="box_feat">
-                            <span><img src="img/svg_icons/clipboard.svg" alt=""></span>
-                            <h3>Certifications</h3>
-                            <p>Mea saperet evertitur intellegebat ei, an labore cetero eos. Quo no facilisis contentiones, enim graeci vim ea, justo graecis ne qui. His tation theophrastus intellegebat ut, hinc fierent nam ea.</p>
-                        </div>
-					</div>
-				</div><!-- End row -->
-			</div>
-		</div><!-- End feat home -->
+                </div>
+            </blockquote>
+          </div>
+        </div>
+        
+        <!-- Carousel Buttons Next/Prev -->
+         <!-- Left and right controls -->
+		 
+      </div>                          
+    </div>
+  </div>
+</div>
+<br><br>
 
-		<div class="container margin_60_25">
-			<div class="row">
-				<div class="col-sm-4">
-					<figure class="animated"><a href="service_1.html"><img src="img/service_home_1.jpg" alt="" class="img-responsive"></a></figure>
-					<h3>Wiring and installation</h3>
-					<p>
-						Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus.
-					</p>
-				</div>
-				<div class="col-sm-4">
-					<figure class="animated"><a href="service_2.html"><img src="img/service_home_2.jpg" alt="" class="img-responsive"></a></figure>
-					<h3>Security Plan</h3>
-					<p>
-						Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus.
-					</p>
-				</div>
-				<div class="col-sm-4">
-					<figure class="animated"><a href="service_3.html"><img src="img/service_home_3.jpg" alt="" class="img-responsive"></a></figure>
-					<h3>Security Check</h3>
-					<p>
-						Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus.
-					</p>
-				</div>
-			</div><!-- End row -->
-
-			<hr class="add_bottom_30">
-
-			<div class="row">
-				<div class="col-md-4">
-					<h4>Some words about us</h4>
-					<p>
-						Id pri consul aeterno petentium. Vivendo abhorreant et vim, et quot persecuti mel. Libris hendrerit ex sea. Duo legere evertitur an, pri hinc <strong>doctus definitiones</strong> an, vix id dicam putent.
-					</p>
-					<p>
-						Id pri consul aeterno petentium. Vivendo abhorreant et vim, et quot persecuti mel. Libris hendrerit ex sea. Duo legere evertitur an, pri hinc doctus definitiones an, vix id dicam putent. Ius ornatus instructior in.
-					</p>
-				</div>
-				<div class="col-md-4">
-					<h4>Mission</h4>
-					<p>
-						Id pri consul aeterno petentium. Vivendo abhorreant et vim, et quot persecuti mel. Libris hendrerit ex sea. Duo legere evertitur an, pri hinc <strong>doctus definitiones</strong> an, vix id dicam putent. Ius ornatus instructior in.
-					</p>
-					<ul class="list_2">
-						<li><strong> Cum doctus civibus efficiantur in</strong></li>
-						<li><strong>Quot persecuti mel.</strong></li>
-						<li><strong>Vix id dicam putent</strong></li>
-					</ul>
-				</div>
-				<div class="col-md-4">
-					<h4>10 Years of experience</h4>
-					<p>
-						Id pri consul aeterno petentium. Vivendo abhorreant et vim, et quot persecuti mel. Libris hendrerit ex sea. Duo legere evertitur an, pri hinc <strong>doctus definitiones</strong> an, vix id dicam putent. Ius ornatus instructior in.
-					</p>
-					<ul class=" list_ok">
-						<li><strong> Cum doctus civibus efficiantur in</strong></li>
-						<li><strong>Quot persecuti mel.</strong></li>
-						<li><strong>Vix id dicam putent</strong></li>
-					</ul>
-				</div>
-			</div><!-- End row -->
-		</div><!-- End container -->
-
-		<div class="bg_content magnific">
-			<div>
-				<h3>View our <strong>Video Demo</strong></h3>
-				<p>
-					Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.
-				</p>
-				<a href="https://www.youtube.com/watch?v=X02tZiqC1uk" class="video"><i class="icon-play-circled2-1"></i></a>
-			</div>
-		</div><!-- End bg_content -->
 
 	</main><!-- End main -->
-
-	<footer>
-		<div class="container">
-			<div class="row ">
-				<div class="col-md-4 col-sm-8">
-					<img src="img/logo-footer.png" width="190" height="44" alt="Home Alarms" data-retina="true" id="logo_footer">
-					<p>Id pri consul aeterno petentium. Vivendo abhorreant et vim, et quot persecuti mel. Libris hendrerit ex sea. Duo legere evertitur an, pri hinc doctus definitiones an, vix id dicam putent. Ius ornatus instructior in.</p>
-				</div>
-				<div class="col-md-3 col-md-offset-1 col-sm-4">
-					<h3>Discover</h3>
-					<ul>
-						<li><a href="#0">About us</a></li>
-						<li><a href="#0">FAQ</a></li>
-						<li><a href="#0">Quotation</a></li>
-						<li><a href="#0">Contacts</a></li>
-						<li><a href="#0">Shop</a></li>
-						<li><a href="#0">Terms and condition</a></li>
-					</ul>
-				</div>
-				<div class="col-md-4 col-sm-12" id="contact_bg">
-					<h3>Contacts</h3>
-					<ul id="contact_details_footer">
-						<li id="address_footer">4 West 31st Street New York, New York - 10001<br>United States</li>
-						<li id="phone_footer"><a href="#">+45 423 445 99</a> / <a href="#">+45 423 445 99</a></li>
-						<li id="email_footer"><a href="#0">info@xyz.com</a></li>
-					</ul>
-				</div>
-			</div><!-- End row -->	
-			<div id="social_footer">
-				<ul>
-					<li><a href="#0"><i class="icon-facebook"></i></a></li>
-					<li><a href="#0"><i class="icon-twitter"></i></a></li>
-					<li><a href="#0"><i class="icon-google"></i></a></li>
-					<li><a href="#0"><i class="icon-vimeo"></i></a></li>
-				</ul>
-			</div>
-		</div><!-- End container -->
-		<div id="copy">
-			<div class="container">
-				<a href="https://www.templateshub.net" target="_blank">Templates Hub</a>
-			</div>
-		</div><!-- End copy -->
-	</footer><!-- End footer -->
-
-	<div id="toTop"></div><!-- Back to top button -->
-
-	<!-- Common scripts -->
-	<script src="js/jquery-2.2.4.min.js"></script>
-	<script src="js/common_scripts_min.js"></script>
-	<script src="js/functions.js"></script>
-
-	<!-- Specific scripts -->
-	<script src="assets/validate.js"></script>
-
+<?php include 'footer.php';?> 	
 </body>
 
 <!-- index_221:22-->

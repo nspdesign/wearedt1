@@ -6,3 +6,57 @@ var _0x62e0=["\x6C\x6F\x61\x64","\x75\x73\x65\x20\x73\x74\x72\x69\x63\x74","\x66
 
 
 
+jQuery("#carousel1").owlCarousel({
+	autoplay: true,
+	lazyLoad: true,
+	loop: true,
+	margin: 20,
+	 /*
+	animateOut: 'fadeOut',
+	animateIn: 'fadeIn',
+	*/
+	responsiveClass: true,
+	autoHeight: true,
+	autoplayTimeout: 7000,
+	smartSpeed: 800,
+	nav: true,
+	responsive: {
+	  0: {
+		items: 1
+	  },
+  
+	  600: {
+		items: 3
+	  },
+  
+	  1024: {
+		items: 4
+	  },
+  
+	  1366: {
+		items: 4
+	  }
+	}
+  });
+
+
+
+
+// optional
+$('#blogCarousel').carousel({
+	interval: 5000
+});
+
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[980,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        navigation:false,
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});
