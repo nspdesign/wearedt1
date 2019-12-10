@@ -45,7 +45,6 @@
 
 	<div class="layer"></div><!-- Mobile menu overlay mask -->
 
-	<!-- Header================================================== -->
 	<header>
 		<div id="top_line">
 			<div class="container">
