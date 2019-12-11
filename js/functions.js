@@ -19,7 +19,7 @@ jQuery("#carousel1").owlCarousel({
 	autoHeight: true,
 	autoplayTimeout: 7000,
 	smartSpeed: 800,
-	nav: true,
+	nav: false,
 	responsive: {
 	  0: {
 		items: 1
@@ -47,7 +47,7 @@ $('#blogCarousel').carousel({
 	interval: 5000
 });
 
-$(document).ready(function(){
+
     $("#testimonial-slider").owlCarousel({
         items:3,
         itemsDesktop:[1000,3],
@@ -59,4 +59,17 @@ $(document).ready(function(){
         slideSpeed:1000,
         autoPlay:true
     });
-});
+
+	$(document).ready(function(){
+		$('.counter-value').each(function(){
+			$(this).prop('Counter',0).animate({
+				Counter: $(this).text()
+			},{
+				duration: 3500,
+				easing: 'swing',
+				step: function (now){
+					$(this).text(Math.ceil(now));
+				}
+			});
+		});
+	});

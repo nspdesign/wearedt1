@@ -65,128 +65,131 @@
 </div>
 
 <br><br>
+
 <h2 class="heading"> Services</h2>
 <div class="owl-slider">
 <div id="carousel1" class="owl-carousel">
 <div class="item">
-                                    <div class="serviceBox">
-                                        <div class="service-icon text-center">
-                                            <img src="img/soham.jpg" class="img-circle" style="height:200px;">
-                                        </div>
-                                        <h3 class="title">ERP for Manufacturing</h3>
-                                        <p class="description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
-                                        <a href="#" class="read-more">Read More</a>
-                                    </div>
-                                </div>
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/soham.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
 								<div class="item">
                                     <div class="serviceBox">
-                                        <div class="service-icon text-center">
-                                            <img src="img/ftm.jpg" class="img-circle" style="height:200px;">
-                                        </div>
-                                        <h3 class="title">Plant Maintenance</h3>
-                                        <p class="description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
+                                    <div class="col mb-4">
+    <div class="card">
+      <img src="img/ftm.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
                                         <a href="#" class="read-more">Read More</a>
                                     </div>
                                 </div>
+                                <div class="item">
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/icm.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
+<div class="item">
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/connekt.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
+
 								<div class="item">
-                                    <div class="serviceBox">
-                                        <div class="service-icon text-center">
-                                            <img src="img/icm.jpg" class="img-circle" style="height:200px;">
-                                        </div>
-                                        <h3 class="title">ICM</h3>
-                                        <p class="description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
-                                        <a href="#" class="read-more">Read More</a>
-                                    </div>
-                                </div>
-								<div class="item">
-                                    <div class="serviceBox">
-                                        <div class="service-icon text-center">
-                                            <img src="img/connekt.jpg" class="img-circle" style="height:200px;">
-                                        </div>
-                                        <h3 class="title">Sales & Distribution</h3>
-                                        <p class="description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
-                                        <a href="#" class="read-more">Read More</a>
-                                    </div>
-                                </div>
-								<div class="item">
-                                    <div class="serviceBox">
-                                        <div class="service-icon text-center">
-                                            <img src="img/tna.jpg" class="img-circle" style="height:200px;">
-                                        </div>
-                                        <h3 class="title">Process Improvements</h3>
-                                        <p class="description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
-                                        <a href="#" class="read-more">Read More</a>
-                                    </div>
-                                </div>
-								<div class="item">
-                                    <div class="serviceBox">
-                                        <div class="service-icon text-center">
-                                            <img src="img/infralinkit.jpg" class="img-circle" style="height:200px;">
-                                        </div>
-                                        <h3 class="title">Cloud Based Platform</h3>
-                                        <p class="description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
-                                        <a href="#" class="read-more">Read More</a>
-                                    </div>
-                                </div>
-								<div class="item">
-                                    <div class="serviceBox">
-                                        <div class="service-icon text-center">
-                                            <img src="img/industry4.0_1.jpg" class="img-circle" style="height:200px;">
-                                        </div>
-                                        <h3 class="title">industry</h3>
-                                        <p class="description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et consectetur libero. Phasellus nibh tellus, dapibus egestas ante a, elementum hendrerit dui.</p>                                        </p>
-                                        <a href="#" class="read-more">Read More</a>
-                                    </div>
-                                </div>
-								
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/tna.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
+<div class="item">
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/infralinkit.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
+<div class="item">
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/industry4.0_1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
 								
 								
 </div>
 </div>
 <br><br>
-<div class="container pt-30">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                                <div class="counter">
-                            
-                                    <span class="counter-value">authentic services</span>
-                                    <p style="font-size: 16px; font-weight: 500;">100%</p>
-                                </div>
-                            </div>
-                    
-                            
-                            <div class="col-md-3 col-sm-6">
-                                <div class="counter">
-                            
-                                    <span class="counter-value"> Services deliverd</span>
-                                    <p style="font-size: 16px; font-weight: 500;">500+</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="counter">
-                            
-                                    <span class="counter-value">Trusted <br>Clients</span>
-                                    <p style="font-size: 16px; font-weight: 500;">1000+</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="counter">
-                            
-                                    <span class="counter-value">Honours & Awards</span>
-                                    <p style="font-size: 16px; font-weight: 500;">1000+</p>
-                                </div>
-                            </div>
-                            
-                    </div>
-				</div>
-				
+
+<div class="container" style="background:#ccc;">
+                <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="counter">
+                <div class="counter-icon">
+                    <i class="fa fa-globe"></i>
+                </div>
+                <span class="counter-value">478</span>
+                <h3>Web Designing</h3>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="counter purple">
+                <div class="counter-icon">
+                    <i class="fa fa-rocket"></i>
+                </div>
+                <span class="counter-value">451</span>
+                <h3>Web Development</h3>
+            </div>
+        </div>
+    </div>
+</div>
 			<!--testimonial part-->
 
 
@@ -237,7 +240,106 @@
             </div>
         </div>
 				<!--testimonial part ends-->
-			
+                <h2 class="heading"> Services</h2>
+<div class="owl-slider">
+<div id="carousel1" class="owl-carousel">
+<div class="item">
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/soham.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
+								<div class="item">
+                                    <div class="serviceBox">
+                                    <div class="col mb-4">
+    <div class="card">
+      <img src="img/ftm.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="item">
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/icm.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
+<div class="item">
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/connekt.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
+
+								<div class="item">
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/tna.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
+<div class="item">
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/infralinkit.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
+<div class="item">
+<div class="serviceBox">
+<div class="col mb-4">
+    <div class="card">
+      <img src="img/industry4.0_1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>  <a href="#" class="read-more">Read More</a>
+</div>                                      
+</div>
+								
+								
+</div>
+</div>
 <!--team part start-->
 		
 <section class="our-webcoderskull padding-lg">

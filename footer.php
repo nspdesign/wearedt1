@@ -47,10 +47,7 @@
 	<script src="js/jquery-2.2.4.min.js"></script>
 	<script src="js/common_scripts_min.js"></script>
 	<script src="js/functions.js"></script>
-	<script src="js/owlcarousel/owl.carousel.min.js"></script>
-	<script src="js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
-
-	<!-- Specific scripts -->
-	<script src="assets/validate.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+	
+
