@@ -23,26 +23,16 @@
             <div class="topbar">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-sm-6 contact-info">
+                        <div class="col col-sm-9 contact-info">
                             <ul>
                                 <li><i class="fa fa-envelope-o" aria-hidden="true"></i>  mail@solid-industry.co.uk</li>
-                                <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i>  +012 (3456) 88 974</li>
                             </ul>
                         </div>
-                        <div class="col col-sm-6 language-login-wrapper">
-                            <div class="language-login clearfix">
-                                <div class="language">
-                                    <i class="fa fa-globe" aria-hidden="true"></i> Lang:
-                                    <form>
-                                        <select class="selectpicker">
-                                            <option>ENG</option>
-                                            <option>TUK</option>
-                                            <option>SPH</option>
-                                        </select>
-                                    </form>
-                                </div>
-                              
-                            </div>
+                        <div class="col col-sm-3 contact-info">
+                            <ul>
+                          <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i>  +012 (3456) 88 974</li>
+
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -64,26 +54,31 @@
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
                         <ul class="nav navbar-nav">
                             <li class="menu-item-has-children current-menu-ancestor current-menu-parent">
-                                <a href="#">Home</a>
+                                <a href="index.php">Home</a>
                                 
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">About</a>
+                                <a href="about.php">About</a>
                                 <ul class="sub-menu">
-                                    <li><a href="projects-s1.html"> Company Overview</a></li>
-                                    <li><a href="projects-s2.html">Vision And Mission</a></li>
-                                    <li><a href="projects-s3.html">Our Team</a></li>
+                                    <li><a href="about.php"> Company Overview</a></li>
+                                    <li><a href="vision_mission.php">Vision And Mission</a></li>
+                                    <li><a href="team.php">Our Team</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Products</a></li>
+                            <li><a href="products.php">Products</a></li>
+                       <li class="menu-item-has-children">
+                           <a href="clients.php">Clients</a>
+                                <ul class="sub-menu">
+                                    <li><a href="support.php"> Support</a></li>
+                                    
+                                </ul>
+                            </li>
 
-<li><a href="contact.html">Clients</a></li>
+                            <li><a href="testimonials.php">Testimonials</a></li>
 
-<li><a href="contact.html">Testimonials</a></li>
-
-<li><a href="contact.html">Gallery</a></li>
-<li><a href="contact.html">Blog</a></li>
-<li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="gallery.php">Gallery</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
 
                 
 

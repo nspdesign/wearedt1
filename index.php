@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-<?php include 'header.php';?> 
-<title>werardt - consulting-software-execution</title>
-</head>
+    <head>
+        <?php include 'header.php'; ?> 
+        <title>werardt - consulting-software-execution</title>
+    </head>
 
-<body class="home-style-3">
+    <body class="home-style-3">
 
 
-<?php include 'nav.php';?> 
-<?php include 'banner.php';?> 
+        <?php include 'nav.php'; ?> 
+        <?php include 'banner.php'; ?> 
 
-<div id="marq" style="background-color:#ccd6e5; height:60px; text-align:center;">
-<marquee><h4 style="color:#425b83;">Enhance Effectiveness through Efficient Operations in ever Evolving markets</h4>
-</marquee>
-</div>
+        <div id="marq" style="background-color:#ccd6e5; height:60px; text-align:center;">
+            <marquee><h4 style="color:#425b83;">Enhance Effectiveness through Efficient Operations in ever Evolving markets</h4>
+            </marquee>
+        </div>
 
-           <!-- end of services-serction-s3 -->
-           <section class="latest-porjects-s3 section-padding">
+        <!-- end of services-serction-s3 -->
+        <section class="latest-porjects-s3 section-padding">
             <div class="container">
                 <div class="row section-title-s3">
                     <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -27,7 +27,7 @@
                     </div>
                 </div> <!-- end section-title -->
             </div>
-    
+
             <div class="container-fluid">
                 <div class="row">
                     <div class="projects-s3-grids project-s3-slider">
@@ -95,15 +95,15 @@
         </section>
 
 
-           <!-- start of fun-fact --> 
-           <section class="fun-fact section-padding">
+        <!-- start of fun-fact --> 
+        <section class="fun-fact section-padding">
             <div class="container">
                 <div class="row section-title-s4">
                     <div class="col col-xs-12">
                         <h2>Some facts in <span>Numbers</span></h2>
                     </div>
                 </div> <!-- end section-title -->
-        
+
                 <div class="row start-count">
                     <div class="col col-sm-4">
                         <div class="grid">
@@ -130,8 +130,8 @@
             </div> <!-- end container -->
         </section>
         <!-- end of fun-fact -->
- <!-- start of testimonial-section --> 
- <section class="testimonial-section section-padding">
+        <!-- start of testimonial-section --> 
+        <section class="testimonial-section section-padding">
             <div class="container">
                 <div class="row section-title-s3">
                     <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -139,7 +139,7 @@
                         <p>Mauris ornare tellus et cursus volutpat. Praesent neque justo, dapibus id vestibulum nec, accumsan vitae sapien. Curabitur tempus tortor sit amet sapien.</p>
                     </div>
                 </div> <!-- end section-title -->
-        
+
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="testimonials-slider dots-style-1">
@@ -201,11 +201,11 @@
                     </div>
                 </div> <!-- end section-title -->
             </div>
-    
+
             <div class="container-fluid">
                 <div class="row">
                     <div class="projects-s3-grids project-s3-slider">
-                    <div class="grid">
+                        <div class="grid">
                             <div class="img-holder">
                                 <img src="images/team/img-1.jpg" alt>
                             </div>
@@ -270,13 +270,13 @@
 
 
 
-    
-     
+
+
         <!-- start of latest-porjects-s3 --> 
-       
+
         <!-- end of latest-porjects-s3 -->
 
-      <!-- start of partners-section --> 
+        <!-- start of partners-section --> 
         <section class="partners-section">
             <h2 class="hidden">Partenrs</h2>
             <div class="container">
@@ -290,22 +290,22 @@
                                 <img src="images/Others/eTAG.PNG" alt class="img img-responsive">
                             </div>
                             <div class="grid">
-                            <img src="images/Others/FTM.PNG" alt class="img img-responsive">
+                                <img src="images/Others/FTM.PNG" alt class="img img-responsive">
                             </div>
                             <div class="grid">
-                            <img src="images/Others/infraLinkIT.png" alt class="img img-responsive">
+                                <img src="images/Others/infraLinkIT.png" alt class="img img-responsive">
                             </div>
                             <div class="grid">
-                            <img src="images/Others/Logowoline.png" alt class="img img-responsive">
+                                <img src="images/Others/Logowoline.png" alt class="img img-responsive">
                             </div>
                             <div class="grid">
-                            <img src="images/Others/New SOHAM.png" alt class="img img-responsive">
+                                <img src="images/Others/New SOHAM.png" alt class="img img-responsive">
                             </div>
                             <div class="grid">
-                            <img src="images/Others/Logo.png" alt class="img img-responsive">
+                                <img src="images/Others/Logo.png" alt class="img img-responsive">
                             </div>
                             <div class="grid">
-                            <img src="images/Others/TnA.png" alt class="img img-responsive">
+                                <img src="images/Others/TnA.png" alt class="img img-responsive">
                             </div>
                         </div>
                     </div>
@@ -315,7 +315,7 @@
         <!-- end of partners-section -->
 
 
-        <?php include 'footer.php';?> 
+        <?php include 'footer.php'; ?> 
 
-</body>
+    </body>
 </html>

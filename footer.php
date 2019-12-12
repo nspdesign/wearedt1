@@ -5,7 +5,9 @@
                 <div class="row">
                     <div class="col col-lg-4 col-md-3 col-xs-6">
                         <img src="images/Logo.jpg">
+                        <br>
                         <div class="widget about-widget">
+                              <br>
                             <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laborio, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil.</p>
                         </div>
                     </div>
