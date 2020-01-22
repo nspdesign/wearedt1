@@ -1,69 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
- <?php include 'header.php'; ?>
-            <title>contact - consulting-software-execution</title>
 
-</head>
+    <!-- index-3 06:43:55 GMT -->
+    <head>
 
-<body class="contact-pg">
+        <title> Werardt - Consulting - Software - Execution</title>
 
- <?php include 'nav.php'; ?>
-    
-        <!-- end of header -->
+        <!-- responsive meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- For IE -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+        <?php include 'header.php'; ?>
 
-        <!-- start page-title-wrapper -->
-        <div class="page-title">
-            <div class="container">
-                <h1>Contact</h1>
-            </div>
-        </div>
-        <!-- end page-title-wrapper -->
+    </head>
 
+    <body>
 
-        <!-- start of contact-section --> 
-        <section class="contact-section">
-            <div class="contact-map" id="map"></div>
+        <?php include 'nav.php'; ?>
+
+        <!--Start appointment Area-->
+        <section class="appointment-area" style="background-image:url(images/resources/appointment-bg.jpg);">
             <div class="container">
                 <div class="row">
-                    <div class="col col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6">
-                        <div class="contact-form">
-                            <h3>Contact Form</h3>
-                            <ul>
-                                <li><i class="fa fa-home"></i>M C T A Dr, Swiftwater, PA 18370</li>
-                                <li><i class="fa fa-phone"></i>+1 570-839-1300</li>
-                            </ul>
-                            <h4>Send Email</h4>
-                            <form class="form contact-validation-active" id="contact-form">
-                                <div>
-                                    <input type="text" name="name" class="form-control" placeholder="Full Name">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="map-content-box">
+                            <div class="sec-title">
+                                <p>Contact Details</p>
+                                <div class="title">How Can We <span>Help You?</span></div>
+                            </div>
+                            <div class="inner paroller">
+                                <img src="images/resources/map.png" alt="Map">
+                                <div class="overlay">
+                                    <div class="single-location-box one wow zoomIn" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                        <div class="marker-box">
+                                            <span class="icon-pin"></span>
+                                        </div>
+                                        <div class="location-info">
+                                            <h3>Brooklyn</h3>
+                                            <p>P. B: 222. Mid Corner Street<br> Brooklyn - 11223.<br> +224 620 63 09 00<br> example@example.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-location-box two wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div class="marker-box">
+                                            <span class="icon-pin"></span>
+                                        </div>
+                                        <div class="location-info">
+                                            <h3>Brooklyn</h3>
+                                            <p>P. B: 222. Mid Corner Street<br> Brooklyn - 11223.<br> +224 620 63 09 00<br> example@example.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-location-box three wow zoomIn" data-wow-delay="500ms" data-wow-duration="1500ms">
+                                        <div class="marker-box">
+                                            <span class="icon-pin"></span>
+                                        </div>
+                                        <div class="location-info">
+                                            <h3>Brooklyn</h3>
+                                            <p>P. B: 222. Mid Corner Street<br> Brooklyn - 11223.<br> +224 620 63 09 00<br> example@example.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-location-box four wow zoomIn" data-wow-delay="700ms" data-wow-duration="1500ms">
+                                        <div class="marker-box">
+                                            <span class="icon-pin"></span>
+                                        </div>
+                                        <div class="location-info">
+                                            <h3>Brooklyn</h3>
+                                            <p>P. B: 222. Mid Corner Street<br> Brooklyn - 11223.<br> +224 620 63 09 00<br> example@example.com</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div>
-                                    <input type="email" name="email" class="form-control" placeholder="Email">
-                                </div>
-                                <div>
-                                    <textarea name="note" class="form-control" placeholder="Message"></textarea>
-                                </div>
-                                <div class="submit">
-                                    <button type="submit">Send</button>
-                                    <span id="loader"><img src="images/contact-ajax-loader.gif" alt="Loader"></span>
-                                </div>
-                                <div class="error-handling-messages">
-                                    <div id="success">Thank you</div>
-                                    <div id="error"> Error occurred while sending email. Please try again later. </div>
-                                </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section>
-        <!-- end of contact-section -->       
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="appointment-box wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="title-box">
+                                <h2>Make Appointment</h2>
+                                <span>Leave your information here and get reply from our expert in 24 hours, don’t hesitate to ask.</span>
+                            </div>
+                            <div class="appointment">
+                                <form class="appointment-form">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="single-box">
+                                                <input type="text" name="form_name" value="" placeholder="Name" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="single-box">
+                                                <input type="email" name="form_email" value="" placeholder="Email" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="single-box">
+                                                <input type="text" name="form_mobile" value="" placeholder="Mobile No" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="single-box">
+                                                <input type="text" name="form_email" value="" placeholder="Message" required="">
+                                            </div>
+                                        </div>
+                                    </div>
 
-<?php include 'footer.php'; ?>
-      
-</body>
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="single-box">
+                                                <button class="btn-one" type="submit">Submit Here<span class="flaticon-next"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!--End appointment Area-->
+
+        <?php include 'footer.php'; ?>
+
+    </body>
+
+
 
 </html>

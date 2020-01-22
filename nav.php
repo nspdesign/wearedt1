@@ -1,101 +1,97 @@
+<div class="boxed_wrapper">
 
-    <!-- start page-wrapper -->
-    <div class="page-wrapper">
+    <div class="preloader"></div>
 
-        <!-- start preloader -->
-        <div class="preloader">
-            <div class="preloader-inner">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        <!-- end preloader -->
-
-        <!-- Start header -->
-        <header class="site-header header-style-3">
-            <div class="topbar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col col-sm-9 contact-info">
-                            <ul>
-                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>  mail@solid-industry.co.uk</li>
-                            </ul>
+    <!--Start Header style3 Area-->
+    <section class="header-style3-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="header-style3-content">
+                        <div class="logo-box-style3 float-left">
+                            <a href="index-2.html">
+                                <img src="images/Logo.jpg" alt="Awesome Logo">
+                            </a>
                         </div>
-                        <div class="col col-sm-3 contact-info">
-                            <ul>
-                          <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i>  +012 (3456) 88 974</li>
-
-                            </ul>
+                        <ul class="header-contact-info style2 float-left">
+                            <li>
+                                <div class="single-item">
+                                    <div class="icon">
+                                        <span class="icon-maps-and-location"></span>
+                                    </div>
+                                    <div class="text">
+                                        <h3>Pune, India</h3>
+                                        <p>Flat 201, Reynolds Neck Str</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-item">
+                                    <div class="icon">
+                                        <span class="icon-mail"></span>
+                                    </div>
+                                    <div class="text">
+                                        <h3>business@werardt.com</h3>
+                                        <p>Get a Free Quote</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="mainmenu-right style3 float-right">
+                            <div class="button">
+                                <a class="btn-one" href="#">Request for Quote<span class="flaticon-next"></span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div> <!-- end topbar -->
+            </div>
+        </div>
+    </section>
+    <!--End Header style3 Area-->
 
-            <nav class="navigation navbar navbar-default">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="open-btn">
-                            <span class="sr-only">Toggle navigation</span>
+    <!--Start Mainmenu Style3 Area-->
+    <header class="mainmenu-style3-area stricky">
+        <div class="container">
+            <div class="main-menu-box clearfix">
+                <nav class="main-menu style3 clearfix float-left">
+                    <div class="navbar-header clearfix">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index-2.html"><img src="images/Logo.jpg" alt></a>
                     </div>
+                    <div class="navbar-collapse collapse clearfix">
+                        <ul class="navigation clearfix">
+                            <li class="dropdown"><a href="index.php">Home</a>
 
-                    <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
-                        <button class="close-navbar"><i class="fa fa-close"></i></button>
-                        <ul class="nav navbar-nav">
-                            <li class="menu-item-has-children current-menu-ancestor current-menu-parent">
-                                <a href="index.php">Home</a>
-                                
                             </li>
-                            <li class="menu-item-has-children">
-                                <a href="about.php">About</a>
-                                <ul class="sub-menu">
-                                    <li><a href="about.php"> Company Overview</a></li>
-                                    <li><a href="vision_mission.php">Vision And Mission</a></li>
-                                    <li><a href="team.php">Our Team</a></li>
+                            <li class="dropdown"><a href="#">About Us</a>
+                                <ul>
+                                    <li><a href="#"> Company Overview</a></li>
+                                    <li><a href="#">Vision And Mission</a></li>
+                                    <li><a href="#">Our Team</a></li> 
                                 </ul>
                             </li>
-                            <li><a href="products.php">Products</a></li>
-                       <li class="menu-item-has-children">
-                           <a href="clients.php">Clients</a>
-                                <ul class="sub-menu">
-                                    <li><a href="support.php"> Support</a></li>
-                                    
+                            <li><a href="#">Products</a></li>
+
+                            <li class="dropdown"><a href="#">Clients</a>
+                                <ul>
+                                    <li><a href="#">Support</a></li>
+
                                 </ul>
                             </li>
 
-                            <li><a href="testimonials.php">Testimonials</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="contact.php">Contact</a></li>
 
-                            <li><a href="gallery.php">Gallery</a></li>
-                            <li><a href="blog.php">Blog</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
-
-                
-
-                        </ul>
-                    </div><!-- end of nav-collapse -->
-
-                   
-                    <div class="social-links-holder">
-                        <ul class="social-links">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
                         </ul>
                     </div>
-                </div><!-- end of container -->
-            </nav>
-        </header>
-        <!-- end of header -->
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <!--End Mainmenu Style3 Area-->
