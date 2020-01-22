@@ -3,16 +3,16 @@
     <head>
         <?php include 'header.php'; ?>
         <title> Werardt - Consulting - Software - Execution</title>
-         <meta name="description" content="">
-        <meta name="keywords" content="">
     </head>
     <body>
 
         <?php include 'nav.php'; ?>
 
-       
+        <!--Main Slider-->
         <?php include 'banner.php'; ?>
-       
+        <!--End Main Slider-->
+
+ <!--Start Highlights Area-->
         <section class="highlights-area">
             <div class="container">
                 <div class="row">
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </section>
-       
+        <!--End Highlights Area-->
 
         <div class="container about-style3-content">
             <div class="about-style3-bg banner-animate" style="background-image: url(images/pattern/about-style3-bg.jpg);"></div>
@@ -103,7 +103,9 @@ Over the past two and a half decades, we have designed, developed and successful
             </div>
         </div>
     </section>
-   
+    <!--End Featured Area-->
+
+    <!--Start services style2 area-->
     <section class="services-style2-area">
         <div class="container">
             <div class="sec-title with-text max-width text-center wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1200ms">
@@ -114,7 +116,7 @@ Over the past two and a half decades, we have designed, developed and successful
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div class="services-style2-content">
                         <div class="services-carousel owl-carousel owl-theme">
-                           
+                            <!--Start single service style2-->
                             <div class="single-service-style2">
                                 <div class="img-holder">
                                     <img src="images/soham.jpg" alt="Awesome Image">
@@ -135,7 +137,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                     </div>
                                 </div>
                             </div>
-                            
+                            <!--End single service style2-->
+                            <!--Start single service style2-->
                             <div class="single-service-style2">
                                 <div class="img-holder">
                                     <img src="images/tna.jpg" alt="Awesome Image">
@@ -156,7 +159,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                     </div>
                                 </div>
                             </div>
-                            
+                            <!--End single service style2-->
+                            <!--Start single service style2-->
                             <div class="single-service-style2">
                                 <div class="img-holder">
                                     <img src="images/icm.jpg" alt="Awesome Image">
@@ -177,7 +181,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                     </div>
                                 </div>
                             </div>
-                            
+                            <!--End single service style2-->
+                            <!--Start single service style2-->
                             <div class="single-service-style2">
                                 <div class="img-holder">
                                     <img src="images/connekt.jpg" alt="Awesome Image">
@@ -198,7 +203,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                     </div>
                                 </div>
                             </div>
-                           
+                            <!--End single service style2-->
+                            <!--Start single service style2-->
                             <div class="single-service-style2">
                                 <div class="img-holder">
                                     <img src="images/infralinkit.jpg" alt="Awesome Image">
@@ -219,7 +225,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                     </div>
                                 </div>
                             </div>
-                            
+                            <!--End single service style2-->
+                            <!--Start single service style2-->
                             <div class="single-service-style2">
                                 <div class="img-holder">
                                     <img src="images/icm.jpg" alt="Awesome Image">
@@ -240,14 +247,16 @@ Over the past two and a half decades, we have designed, developed and successful
                                     </div>
                                 </div>
                             </div>
-                          
+                            <!--End single service style2-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+    <!--End services style2 area-->
+
+    <!--Start Latest Projects Area-->
     <section class="latest-projects-area">
         <div class="container">
             <div class="sec-title">
@@ -259,7 +268,7 @@ Over the past two and a half decades, we have designed, developed and successful
             <div class="row">
                 <div class="col-xl-12">
                     <div class="project-carousel-v3 owl-carousel owl-theme">
-                      
+                        <!--Start Single excellent project-->
                         <div class="single-project-style3">
                             <div class="img-holder">
                                 <img src="images/projects/lat-pro-v3-1.jpg" alt="Awesome Image">
@@ -276,7 +285,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                 <h3>Art Family Residence</h3>
                             </div>
                         </div>
-                        
+                        <!--End Single excellent project-->
+                        <!--Start Single excellent project-->
                         <div class="single-project-style3">
                             <div class="img-holder">
                                 <img src="images/projects/lat-pro-v3-2.jpg" alt="Awesome Image">
@@ -293,7 +303,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                 <h3>Office Partition Walls</h3>
                             </div>
                         </div>
-                       
+                        <!--End Single excellent project-->
+                        <!--Start Single excellent project-->
                         <div class="single-project-style3">
                             <div class="img-holder">
                                 <img src="images/projects/lat-pro-v3-3.jpg" alt="Awesome Image">
@@ -310,7 +321,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                 <h3>Metropolitan Museum</h3>
                             </div>
                         </div>
-                      
+                        <!--End Single excellent project-->
+                        <!--Start Single excellent project-->
                         <div class="single-project-style3">
                             <div class="img-holder">
                                 <img src="images/projects/lat-pro-v3-4.jpg" alt="Awesome Image">
@@ -327,16 +339,17 @@ Over the past two and a half decades, we have designed, developed and successful
                                 <h3>Glass Office Screen</h3>
                             </div>
                         </div>
-                       
+                        <!--End Single excellent project-->
+
 
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+    <!--End Latest Projects Area-->
     <br><br>
-    
+    <!--End Featured Area-->
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6">
@@ -378,7 +391,7 @@ Over the past two and a half decades, we have designed, developed and successful
         </div>
     </div>
 
-   
+    <!--Start Team Area-->
     <section class="team-area">
         <div class="container">
             <div class="row">
@@ -393,7 +406,7 @@ Over the past two and a half decades, we have designed, developed and successful
                 </div>
             </div>
             <div class="row">
-              
+                <!--Start Single Team Member-->
                 <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="single-team-member">
                         <div class="img-holder">
@@ -418,7 +431,8 @@ Over the past two and a half decades, we have designed, developed and successful
                         </div>
                     </div>
                 </div>
-                
+                <!--End Single Team Member-->
+                <!--Start Single Team Member-->
                 <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="single-team-member">
                         <div class="img-holder">
@@ -442,7 +456,8 @@ Over the past two and a half decades, we have designed, developed and successful
                         </div>
                     </div>
                 </div>
-               
+                <!--End Single Team Member-->
+                <!--Start Single Team Member-->
                 <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="single-team-member">
                         <div class="img-holder">
@@ -467,11 +482,13 @@ Over the past two and a half decades, we have designed, developed and successful
                         </div>
                     </div>
                 </div>
-                
+                <!--End Single Team Member-->
             </div>
         </div>
     </section>
-    
+    <!--End Team Area-->
+
+    <!--Start Testimonial Style3 Area-->
     <section class="testimonial-style3-area">
         <div class="container">
             <div class="sec-title with-text max-width text-center wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1200ms">
@@ -508,7 +525,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                 </div>
                             </div>
                         </div>
-                       
+                        <!--End Single Testimonial style2 -->
+                        <!--Start Single Testimonial style2-->
                         <div class="single-testimonial-style3">
                             <div class="inner-content">
                                 <div class="client-info">
@@ -534,7 +552,9 @@ Over the past two and a half decades, we have designed, developed and successful
                                 </div>
                             </div>
                         </div>
-                       
+                        <!--End Single Testimonial style2 -->
+
+                        <!--Start Single Testimonial style2-->
                         <div class="single-testimonial-style3">
                             <div class="inner-content">
                                 <div class="client-info">
@@ -560,7 +580,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                 </div>
                             </div>
                         </div>
-                        
+                        <!--End Single Testimonial style2 -->
+                        <!--Start Single Testimonial style2-->
                         <div class="single-testimonial-style3">
                             <div class="inner-content">
                                 <div class="client-info">
@@ -586,7 +607,9 @@ Over the past two and a half decades, we have designed, developed and successful
                                 </div>
                             </div>
                         </div>
-                        
+                        <!--End Single Testimonial style2 -->
+
+                        <!--Start Single Testimonial style2-->
                         <div class="single-testimonial-style3">
                             <div class="inner-content">
                                 <div class="client-info">
@@ -612,7 +635,8 @@ Over the past two and a half decades, we have designed, developed and successful
                                 </div>
                             </div>
                         </div>
-                        
+                        <!--End Single Testimonial style2 -->
+                        <!--Start Single Testimonial style2-->
                         <div class="single-testimonial-style3">
                             <div class="inner-content">
                                 <div class="client-info">
@@ -638,14 +662,16 @@ Over the past two and a half decades, we have designed, developed and successful
                                 </div>
                             </div>
                         </div>
-                        
+                        <!--End Single Testimonial style2 -->
                     </div>
                 </div>
             </div>
         </div>
 
     </section>
-    
+    <!--End Testimonial Style3 Area-->
+
+    <!--Start latest blog area style2-->
     <section class="latest-blog-area style3">
         <div class="container inner-content">
             <div class="row">
@@ -660,6 +686,7 @@ Over the past two and a half decades, we have designed, developed and successful
                 </div>
             </div>
             <div class="row">
+                <!--Start single blog post-->
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="single-blog-post style2 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="img-holder">
@@ -681,7 +708,8 @@ Over the past two and a half decades, we have designed, developed and successful
                         </div>
                     </div>
                 </div>
-                
+                <!--End single blog post-->
+                <!--Start single blog post-->
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="single-blog-post style2 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="img-holder">
@@ -703,7 +731,8 @@ Over the past two and a half decades, we have designed, developed and successful
                         </div>
                     </div>
                 </div>
-                
+                <!--End single blog post-->
+                <!--Start single blog post-->
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="single-blog-post style2 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div class="img-holder">
@@ -725,33 +754,40 @@ Over the past two and a half decades, we have designed, developed and successful
                         </div>
                     </div>
                 </div>
+                <!--End single blog post-->
             </div>
         </div>
     </section>
+    <!--End latest blog area style2-->
     <div class="container brand-style3">
         <div class="row">
             <div class="col-xl-12">
                 <ul>
+                    <!--Start Single Brand Item-->
                     <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <a href="#"><img src="images/Others/ConneKT.PNG" alt="Awesome Brand Image" style="width: 200px; height: 150px;"></a>
                     </li>
-                   
+                    <!--End Single Brand Item-->
+                    <!--Start Single Brand Item-->
                     <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <a href="#"><img src="images/Others/eTAG.PNG" alt="Awesome Brand Image" style="width: 200px; height: 150px;"></a>
                     </li>
-                 
+                    <!--End Single Brand Item-->
+                    <!--Start Single Brand Item-->
                     <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <a href="#"><img src="images/Others/FTM.PNG" alt="Awesome Brand Image" style="width: 200px; height: 150px;"></a>
                     </li>
-                   
+                    <!--End Single Brand Item-->
+                    <!--Start Single Brand Item-->
                     <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <a href="#"><img src="images/Others/New SOHAM.png" alt="Awesome Brand Image" style="width: 200px; height: 150px;"></a>
                     </li>
-                   
+                    <!--End Single Brand Item-->
+                    <!--Start Single Brand Item-->
                     <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
                         <a href="#"><img src="images/Others/infraLinkIT.png" alt="Awesome Brand Image" style="width: 200px; height: 150px;"></a>
                     </li>
-                   
+                    <!--End Single Brand Item-->
                 </ul>
                 
             </div>
